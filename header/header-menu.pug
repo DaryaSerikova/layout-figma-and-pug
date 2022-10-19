@@ -1,0 +1,8 @@
+- var menuItems = ['Каталог товаров', 'доставка и оплата', 'Цены', 'Контакты'];
+
+
+  nav.header__nav.header__item
+    ul.header__list
+      each item in menuItems
+        li.header__item
+          a.header__link(href="#!") #{item}

@@ -1,0 +1,10 @@
+- var baseLink = '../assets/svg/'
+- var networksIcons = ['vk_icon.svg', 'tg_icon.svg', 'inst_icon.svg', 'wsup_icon.svg'];
+
+ 
+div.header__social-networks-icons.header__item
+  each icon in networksIcons
+    a.header__social-networks(href='/')
+      img.header__social-networks-img(
+        src=baseLink + icon
+      )

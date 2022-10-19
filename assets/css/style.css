@@ -1,0 +1,117 @@
+/* montserrat-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/montserrat-v25-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v25-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-600 - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+       url('../fonts/montserrat-v25-latin_cyrillic-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v25-latin_cyrillic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-700 - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/montserrat-v25-latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v25-latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
+  box-sizing: boreder-box;
+}
+
+*, *::before,*::after {
+  box-sizing: inherit;
+}
+
+/* Кастомные стили */
+
+body {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 16px;
+  color: #000000;
+}
+
+/* Header */
+
+.header {
+  width: 100%;
+  justify-content: center;
+  height: 97px;
+  text-transform: uppercase;
+
+}
+
+.div-header {
+  display: flex;
+  max-width: 1785px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.header, .header__list {
+  display: flex;
+  flex-direction: row;
+}
+
+.wrapper {
+  max-width: 1218px;
+  margin: 0 auto;
+}
+
+.header__list {
+  line-height: 23px !important;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #4C858B !important;
+  font-weight: 700;
+}
+
+.header__social-networks-icons {
+  min-width: 115px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__routes-icons {
+  display: flex;
+  justify-content: space-between;
+  min-width: 200px;
+}
+
+
+.header__part-of-header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 823px;
+}
+
+.header__phone {
+  min-width: 161px;
+  margin-right: 10px;
+}
+
+.header__phone-me {
+  font-size: 14px;
+  min-width: 156px;
+  line-height: 17px;
+  color: #AE2236;
+  border-bottom: 1px dashed #AE2236;
+  font-weight: 700;
+}

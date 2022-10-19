@@ -1,0 +1,23 @@
+header.header
+  div.div-header
+    div.header__logo.header
+      a.header__logo-link(href='/')
+        img.header__logo-pic(
+          src="../assets/svg/logo.svg" 
+          alt="Логотип монтаж дымоходов"
+        )
+
+    div.header__burger-menu
+      img.header__logo-pic(
+        src="../assets/svg/burger_menu.svg" 
+        alt="burger-menu"
+      )
+
+    include header-menu
+
+    div.header__part-of-header-wrapper
+      div.header__phone +7 (812) 509 21 98
+      div.header__phone-me перезвоните мне
+
+      include social-networks-icons
+      include routes-icons

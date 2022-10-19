@@ -1,0 +1,10 @@
+- var baseLink = '../assets/svg/'
+- var routesIcons = ['search.svg', 'favorite.svg', 'cart.svg'];
+
+ 
+div.header__routes-icons
+  each icon in routesIcons
+    a.header__routes-icon-link(href='/')
+      img.header__routes-icon-img(
+        src=baseLink + icon
+      )
