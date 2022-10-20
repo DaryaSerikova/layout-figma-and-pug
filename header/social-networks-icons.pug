@@ -1,10 +1,34 @@
 - var baseLink = '../assets/svg/'
-- var networksIcons = ['vk_icon.svg', 'tg_icon.svg', 'inst_icon.svg', 'wsup_icon.svg'];
+- var networksIcons = ['vk_icon', 'tg_icon', 'inst_icon', 'wsup_icon'];
 
  
 div.header__social-networks-icons.header__item
-  each icon in networksIcons
-    a.header__social-networks(href='/')
+    a.header__social-networks.vk-icon(href='/')
       img.header__social-networks-img(
-        src=baseLink + icon
+        src=baseLink + 'vk_icon.svg'
+        alt='vk_icon'
       )
+    a.header__social-networks.tg-icon(href='/')
+      img.header__social-networks-img(
+        src=baseLink + 'tg_icon.svg'
+        alt='tg_icon'
+      )
+    a.header__social-networks.inst-icon(href='/')
+      img.header__social-networks-img(
+        src=baseLink + 'inst_icon.svg'
+        alt='inst_icon'
+      )
+    a.header__social-networks.wsup-icon(href='/')
+      img.header__social-networks-img(
+        src=baseLink + 'wsup_icon.svg'
+        alt='wsup_icon'
+      )
+
+
+//- div.header__social-networks-icons.header__item
+//-   each icon in networksIcons
+//-     a.header__social-networks(href='/')
+//-       img.header__social-networks-img(
+//-         src=baseLink + icon + '.svg'
+//-         alt=icon
+//-       )

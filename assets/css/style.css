@@ -52,14 +52,20 @@ body {
   justify-content: center;
   height: 97px;
   text-transform: uppercase;
-
+  margin-top: 28px;
 }
 
 .div-header {
   display: flex;
-  max-width: 1785px;
+  /* max-width: 1786px; */
+  max-width: 1794px;
+
+
+  /* max-width: 1785px; */
+  /* max-width: 1687px; */
   margin: 0 auto;
   align-items: center;
+  width: 100%;
 }
 
 .header, .header__list {
@@ -67,13 +73,19 @@ body {
   flex-direction: row;
 }
 
-.wrapper {
+.wrapper-content {
   max-width: 1218px;
-  margin: 0 auto;
+  margin: 50px auto 0;
 }
 
 .header__list {
   line-height: 23px !important;
+  /* min-width: 665px; */
+  min-width: 620px;
+  padding-right: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header__link {
@@ -83,7 +95,8 @@ body {
 }
 
 .header__social-networks-icons {
-  min-width: 115px;
+  min-width: 118px;
+  margin: 1px -3px 0 0;
   display: flex;
   justify-content: space-between;
 }
@@ -91,20 +104,65 @@ body {
 .header__routes-icons {
   display: flex;
   justify-content: space-between;
-  min-width: 200px;
+  min-width: 202px;
 }
 
+.header__social-networks {
+  width: 20px;
+}
+
+/* 'vk_icon', 'tg-icon', 'inst-icon', 'wsup-icon' */
+.vk-icon {
+  margin: 0 2px 0 0;
+}
+
+.tg-icon {
+  margin: 0 5px 0 0;
+}
+
+.inst-icon {
+  margin: 0 3px 0 0;
+}
+
+.wsup-icon {
+  margin: 0 -2px 0 0;
+}
 
 .header__part-of-header-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-width: 823px;
+  /* min-width: 823px; */
+  /* min-width: 821px; */
+  min-width: 825px;
+
+  margin-top: -2px;
+
 }
 
 .header__phone {
-  min-width: 161px;
-  margin-right: 10px;
+  min-width: 162px;
+  margin-right: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #4C858B;
+}
+
+/* .header__first-part-phone */
+.header__second-part-phone {
+  font-weight: 700;
+  color: black;
+
+  display: flex;
+  align-items: center;
+
 }
 
 .header__phone-me {
@@ -114,4 +172,39 @@ body {
   color: #AE2236;
   border-bottom: 1px dashed #AE2236;
   font-weight: 700;
+  margin: 1px -1px 0 0;
+}
+
+.header__all-header-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  /* min-width: 1546px; */
+  max-width: 1546px;
+  /* max-width: 1542px; */
+
+}
+
+.header__burger-menu {
+  margin: -1px 31px 0 0;
+}
+
+.header__logo {
+  margin: -4px 52px 0 0;
+}
+
+
+/* Content/ Body */
+.content-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
+
+  color: #000000;
+}
+
+.content-title {
+  margin-bottom: 15px;
 }
