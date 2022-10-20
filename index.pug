@@ -9,15 +9,9 @@ html(lang="en")
     link(rel="stylesheet" href="../assets/css/style.css")
 
   body
-    include header/header
+    include components/header/header
 
-    div.wrapper-content
-      div.content-title Монтаж дымоходов
-      div.bread-crumbs 
-        | Главная > Монтаж дымоходов
-        hr
-      p В Дымоход.ру  вам помогут как приобрести, так и установить дымоход любой конфигурации. В нашем монтажном отделе, состоящим из трёх бригад работают квалифицированные специалисты, которые ежегодно проходят курсы повышения квалификации. Все работы проводим качественно и аккуратно, в короткий срок и на совесть .
-
+    include components/content/content
 
     footer.footer
 
