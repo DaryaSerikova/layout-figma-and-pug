@@ -229,15 +229,16 @@ body {
   margin-bottom: 47px;
 }
 
+.lorem-with-pic {
+  display: flex;
+  font-display: row;
+}
+
 .lorem-title {
   display: flex;
   flex-direction: column;
   line-height: 63px;
   margin-bottom: 40px;
-
-  /* Font
-Montserrat
-*/
 }
 
 .lorem-first-title {
@@ -255,6 +256,10 @@ Montserrat
 
 }
 
+.lorem-list-wrapper {
+  min-width: 613px;
+}
+
 .content__lorem-list {
   margin: 0 50px 0;
   max-width: 513px;
@@ -266,6 +271,76 @@ Montserrat
   list-style-image: url(../svg/ellipse.svg);
   padding: 0 0px 24px 10px;
   margin-left: -6px;
+}
+
+.lorem-img-wrapper {
+  width: 766px;
+  height: 541px;
+  
+}
+
+.lorem-img-blob {
+  margin: -3px -161px 0px 0;
+  width: 766px;
+  height: 541px;
+}
+
+.lorem-img-image_3 {
+  width: 477px;
+  height: 459px;
+  margin: -28px 110px 110px 179px;
+}
+
+.lorem-img-dots-group1 {
+  /* width: 36.03px;
+  height: 147.54px;
+  margin: 4.88px 584.91px 388.58px 145.05px; */
+  width: 37.03px;
+  height: 165.54px;
+  margin: -7.12px 584.91px 388.58px 145.05px;
+}
+
+.lorem-img-dots-group2 {
+  /* width: 36.03px;
+  height: 147.54px;
+  margin: 426px 61.97px -32.54px 668px; */
+
+  width: 37.03px;
+  height: 150.54px;
+  margin: 421px 61.97px -32.54px 668px;
+}
+
+.lorem-img-triangles1 {
+  /* width: 77.51px;
+  height: 19.2px;
+  margin: 148px 670.79px 373.8px 18px; */
+
+  width: 80.51px;
+  height: 22.2px;
+  margin: 144px 670.79px 373.8px 18px;
+}
+
+.lorem-img-triangles2 {
+  /* width: 77.51px;
+  height: 19.2px;
+  margin: 55px 2.49px 466.8px 686px; */
+
+  width: 79.51px;
+  height: 20.2px;
+  margin: 52px 2.49px 466.8px 685px;
+}
+
+.child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  box-sizing: border-box;
+  /* width: 100%; */
+}
+
+.parent {
+  position: relative;
 }
 
 .content__subtitle {
