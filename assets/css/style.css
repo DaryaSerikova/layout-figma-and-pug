@@ -301,7 +301,7 @@ Montserrat
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 45px 0 88px;
+  margin: 45px 0 98px;
 
 }
 
@@ -320,4 +320,61 @@ Montserrat
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 10px;
+}
+
+
+.consultation {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.consultation_first {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 40px;
+  
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 0.3px;
+}
+
+.consultation_second {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: -0.18px;
+  margin-bottom: 25px;
+}
+
+.consultation-icons-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.content__social-networks-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 200px;
+  margin-bottom: 36px;
+}
+
+.consultation-form-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.consultation-form {
+  width: 866px;
+  height: 260px;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.15);
 }
