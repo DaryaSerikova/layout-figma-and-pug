@@ -355,7 +355,11 @@ body {
 }
 
 .mb50 {
-  margin-bottom: 53px;
+  margin-bottom: 51px;
+}
+
+.text-why {
+  margin: 0 0 50px 3px;
 }
 
 .number-wrapper {
@@ -397,7 +401,7 @@ body {
 }
 
 .wrapper-process-list {
-  margin-bottom: 107px;
+  margin-bottom: 91px;
 }
 
 .cards {
@@ -410,19 +414,17 @@ body {
 
 .card {
   width: 387px;
-  /* margin: 0 10px 0; */
 }
 .card-img {
-  height: 78px;
-  /* background-color: rgba(5, 201, 5, 0.521); */
-  margin-bottom: 35px;
+  height: 79px;
+  margin-bottom: 32px;
 }
 
 .card-title {
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 11px;
 }
 
 
@@ -489,8 +491,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 22px;
-  letter-spacing: 0.3px;
-  margin-bottom: 12px;
+  margin-bottom: 13px;
 }
 
 .consultation-text {
@@ -498,10 +499,11 @@ body {
   font-size: 16px;
   line-height: 30px;
   margin-bottom: 21px;
+  margin-left: -2px;
 }
 
 .consultation-margin {
-  margin: 58px 0 0 59px;
+  margin: 57px 0 0 60px;
 }
 
 .input {
@@ -530,5 +532,5 @@ body {
 }
 
 .subtitle-video {
-  margin: 0 2px 66px -3px;
+  margin: 0 2px 67px -3px;
 }
