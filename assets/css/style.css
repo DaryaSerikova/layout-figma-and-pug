@@ -57,16 +57,16 @@ body {
 
 .div-header {
   display: flex;
-  /* max-width: 1786px; */
   max-width: 1794px;
-
-
-  /* max-width: 1785px; */
-  /* max-width: 1687px; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin: 0 3.28125%;
   align-items: center;
   width: 100%;
 }
+
+/* .header__nav {
+  width: 100%;
+} */
 
 .header, .header__list {
   display: flex;
@@ -132,10 +132,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* min-width: 823px; */
-  /* min-width: 821px; */
-  min-width: 825px;
-
+  /* min-width: 825px; */
+  min-width: 53.3635118%;
   margin-top: -2px;
 
 }
@@ -180,19 +178,19 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  /* min-width: 1546px; */
-  max-width: 1546px;
-  /* max-width: 1542px; */
-
+  width: 86.1761427%;
+  /* width: 100%;
+  max-width: 1546px; */
 }
 
 .header__burger-menu {
-  margin: -1px 31px 0 0;
+  /* margin: -1px 31px 0 0; */
+  margin: -1px 1.722798216% 0 0;
 }
 
 .header__logo {
-  margin: -4px 52px 0 0;
+  /* margin: -4px 52px 0 0; */
+  margin: -4px 2.89855072% 0 0;
 }
 
 
@@ -276,11 +274,11 @@ body {
 .lorem-img-wrapper {
   width: 766px;
   height: 541px;
-  
 }
 
 .lorem-img-blob {
   margin: -3px -161px 0px 0;
+  /* width: 126.59%;; */
   width: 766px;
   height: 541px;
 }
@@ -534,3 +532,193 @@ body {
 .subtitle-video {
   margin: 0 2px 67px -3px;
 }
+
+.time-class-video {
+  margin-top: 67px;
+  margin-bottom: 652px;
+}
+
+.subtitle-photos {
+  margin: 0 0 67px -3px;
+}
+
+.text-photos {
+  margin-bottom: 732px;
+}
+
+@media (min-width: 1679px) and (max-width: 1800px) {
+  .div-header {
+    margin: 0 2.8%;
+  }
+
+  .header__part-of-header-wrapper {
+    min-width: 52%;
+  }
+}
+
+@media (max-width: 1680px) {
+  .header__social-networks-icons {
+    display: none;
+  }
+}
+
+@media (max-width: 1570px) {
+  .header__phone-me {
+    display: none;
+  }
+
+  .lorem-img-wrapper {
+    display: none;
+  }
+}
+
+@media (min-width: 1570px) and (max-width: 1680px) {
+  .header__part-of-header-wrapper {
+    min-width: 45%;
+    min-width: 39%;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1570px) {
+  .header__part-of-header-wrapper {
+    min-width: 39%;
+  }
+}
+
+@media (min-width: 1350px) and (max-width: 1400px) {
+  .header__part-of-header-wrapper {
+    min-width: 37%;
+  }
+}
+
+@media (max-width: 1350px) {
+  .header__phone {
+    display: none;
+  }
+
+  .header__part-of-header-wrapper {
+    min-width: 20%;
+  }
+
+  .bread-crumbs {
+    margin-bottom: 70px;
+  }
+}
+
+
+
+@media (min-width: 1120px) and (max-width: 1350px) {
+  .wrapper-content {
+    max-width: 1000px;
+  }
+}
+
+/* @media (min-width: 1050px) and (max-width: 1120px) */
+@media (min-width: 900px) and (max-width: 1120px) {
+  .wrapper-content {
+    max-width: 800px;
+  }
+
+  .header__list {
+    min-width: 95%;
+    margin-right: 5px;
+  }
+
+  .header__nav {
+    width: 73%;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 900px) {
+  .wrapper-content {
+    max-width: 735px;
+    margin: 61px auto 0;
+  }
+
+  .header__logo-pic {
+    width: 64px;
+    /* height: 62px; */
+  }
+
+  .header {
+    margin-top: 10px;
+  }
+
+  .header__burger-menu {
+    width: 56px;
+    height: 56px;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .div-header {
+    margin: 0 2.1%;
+  }
+
+  .content-title {
+    font-size: 45px;
+    line-height: 55px;
+    margin: 0 0 29px -2px;
+  }
+
+  .bread-crumbs {
+    margin: 0 0 59px -2px;
+  }
+
+  .text {
+    margin: 0 0 12px 1px;
+  }
+
+  .lorem-title {
+    margin: 0 0 22px 0px;
+  }
+  
+  .lorem-first-title {
+    font-size: 30px;
+    margin: 0 0 -9px -1px;
+  }
+
+  .lorem-second-title {
+    font-size: 40px;
+    line-height: 52px;
+    margin: 1px 0 0 0px;
+  }
+ 
+  .content__lorem-list {
+    margin: 0 25px 47px 50px;
+    max-width: 665px;
+  }
+
+  .content__subtitle {
+    margin: 0 0 28px -4px;
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  .number {
+    font-size: 50px;
+    line-height: 61px;
+    color: #E33E54;
+    opacity: 0.2;
+  }
+
+  .wrapper-process-list {
+    margin-bottom: 46px;
+  }
+}
+
+
+/* @media (max-width: 768px) {
+  .lorem-with-pic {
+    justify-content: center;
+  }
+} */
+
+/* 1680px */
+/* 768px */
+
+/* @media (max-width: 768px) {
+
+} */
