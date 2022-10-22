@@ -619,6 +619,15 @@ body {
     max-width: 800px;
   }
 
+  .header__logo-pic {
+    width: 85px;
+  }
+
+  /* .header__burger-menu {
+    width: 56px;
+    height: 56px;
+  } */
+
   .header__list {
     min-width: 95%;
     margin-right: 5px;
@@ -637,7 +646,6 @@ body {
 
   .header__logo-pic {
     width: 64px;
-    /* height: 62px; */
   }
 
   .header {
@@ -706,6 +714,22 @@ body {
 
   .wrapper-process-list {
     margin-bottom: 46px;
+  }
+
+  .process-item-text {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+
+  .consultation_first {
+    font-size: 40px;
+    line-height: 30px;
+  }
+
+  .consultation_second {
+    font-size: 16px;
+    line-height: 30px;
   }
 }
 
