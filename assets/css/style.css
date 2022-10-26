@@ -163,6 +163,10 @@ body {
 
 }
 
+.pink {
+  color: #AE2236;
+}
+
 .header__phone-me {
   font-size: 14px;
   min-width: 156px;
@@ -543,8 +547,54 @@ body {
 }
 
 .text-photos {
-  margin-bottom: 732px;
+  /* margin-bottom: 732px; */
+  margin-bottom: 41px;
 }
+
+.photos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -10px;
+}
+
+.photo {
+  margin-left: 5px;
+  margin-right: 28px;
+  margin-bottom: 24px;
+  width: 284px;
+  text-overflow: ellipsis;
+}
+
+.photo:last-child {
+  margin-right: 0px;
+}
+
+.border-right-up {
+  border-right: 4px solid #4C858B;
+  border-top: 4px solid #4C858B;
+
+  z-index: 5;
+  width: 46px;
+  height: 46px;
+  margin: 6px 0 0 241.8px;
+}
+
+.border-left-down {
+  border-left: 4px solid #4C858B;
+  border-bottom: 4px solid #4C858B;
+
+  z-index: 5;
+  width: 46px;
+  height: 46px;
+  margin: 160px 0px 0 10.2px;
+}
+
+.img-photo {
+  z-index: -1;
+}
+
+
 
 @media (min-width: 1679px) and (max-width: 1800px) {
   .div-header {
