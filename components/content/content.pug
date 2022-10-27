@@ -1,10 +1,12 @@
 div.wrapper-content
   div.content-title Монтаж дымоходов
   div.bread-crumbs
-    hr.hr-top
-    | Главная  >  Монтаж дымоходов
+    hr.hr-top 
+    <span> Главная </span>
+    img.right-arrow(src="../assets/svg/right-arrow.svg")
+    <span> Монтаж дымоходов </span>
     hr.hr-bottom
-  p.text В <b style="fontWeight: 800">Дымоход.ру</b>  вам помогут как приобрести, так и установить дымоход любой конфигурации. В нашем монтажном отделе, состоящим из трёх бригад работают квалифицированные специалисты, которые ежегодно проходят курсы повышения квалификации. Все работы проводим качественно и аккуратно, в короткий срок и на совесть .
+  p.text В <b style="fontWeight: 800" class="pink">Дымоход.ру</b>  вам помогут как приобрести, так и установить дымоход любой конфигурации. В нашем монтажном отделе, состоящим из трёх бригад работают квалифицированные специалисты, которые ежегодно проходят курсы повышения квалификации. Все работы проводим качественно и аккуратно, в короткий срок и на совесть .
   
   div.lorem-with-pic
     div.lorem-list-wrapper
@@ -17,18 +19,25 @@ div.wrapper-content
     
 
   div.wrapper-process-list
+    img(src="../assets/svg/pink-rectangle.svg" alt='pink-rectangle')
     div.content__subtitle Процесс выполнения монтажа
     include process-list
 
+  img(src="../assets/svg/pink-rectangle.svg" alt='pink-rectangle')
   div.content__subtitle.mb50 Почему Дымоход.ру?
   p.text.text-why В отличие от других производителей, мы ручаемся за качество продукции, т.к. все Дымоходы изготавливаются из качественной стали, проверенного теплоизолятора, по современной технологии плазменной сварки «встык» 
   include cards
 
   include consultation
 
+  img(src="../assets/svg/pink-rectangle.svg" alt='pink-rectangle')
   div.content__subtitle.subtitle-video Видео об установке
   p.text.time-class-video Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  .video
+    <iframe width="771" height="438" src="https://www.youtube.com/embed/doVgFdc6Op4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+  img(src="../assets/svg/pink-rectangle.svg" alt='pink-rectangle')
   div.content__subtitle.subtitle-photos Фото выполненных работ
   p.text.text-photos Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   
