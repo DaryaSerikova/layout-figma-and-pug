@@ -1,0 +1,38 @@
+- var catalogItems1 = ['Дымоходы', 'Дымососы', 'Печи для дома', 'Печи для бани'];
+- var catalogItems2 = ['Камины', 'Силикат кальция', 'Котлы', 'Ещё'];
+- var infoItems1 = ['Каталог', 'Установка и монтаж', 'Отзывы', 'Ликвидация товара'];
+- var infoItems2 = ['Полезное', 'Контакты', 'Оплата и доставка'];
+
+
+
+
+
+footer.footer
+  .wrapper-content.wrapper-footer
+    .catalog-wrapper
+      .footer__title.catalog  КАТАЛОГ
+      .footer__content 
+        .footer__column
+          each item in catalogItems1
+            .footer__content-item #{item}
+        .footer__column
+          each item in catalogItems2
+            .footer__content-item #{item}
+
+    .info-wrapper
+      .footer__title.info-title ИНФОРМАЦИЯ
+      .footer__content.info
+        .footer__column.info-column
+          each item in infoItems1
+            .footer__content-item.info-item #{item}
+        .footer__column.info-column
+          each item in infoItems2
+            .footer__content-item.info-item #{item}
+    .work-time-wrapper
+      .footer__title ВРЕМЯ РАБОТЫ
+      .footer__content
+        .footer__column 
+          .footer__work-time.
+            пн-пт 9:00 – 20:00   сб-вс 10:00 – 18:00
+            г. Санкт - Петербург ,ул. Тамбасова д.7
+          .footer__icons

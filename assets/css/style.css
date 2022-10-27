@@ -555,13 +555,15 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-left: -10px;
+  margin-left: -15px;
+  margin-bottom: 110px;
+  width: 105%;
 }
 
 .photo {
   margin-left: 5px;
-  margin-right: 28px;
-  margin-bottom: 24px;
+  margin-right: 23px;
+  margin-bottom: 25px;
   width: 284px;
   text-overflow: ellipsis;
 }
@@ -595,6 +597,65 @@ body {
 }
 
 
+/* Footer */
+.wrapper-footer {
+  padding-top: 87px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  /* margin-bottom: 21px; */
+  margin-bottom: 17px;
+
+}
+
+.footer__content  {
+  display: flex;
+  flex-direction: row;
+  margin-right: 24px;
+}
+
+.footer__content-item {
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 14px;
+  /* line-height: 17px; */
+  line-height: 24px;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 77px;
+  width: 130px
+}
+
+.footer__column :last-child{
+  margin-right: 0px;
+}
+
+.info-column {
+  width: 170px;
+  margin-right: 37px;
+}
+
+.info-item {
+  margin-bottom: 19px;
+  line-height: 17px;
+}
+
+.info {
+  margin-right: 59px;
+}
+
+.info-title {
+  margin-bottom: 21px;
+}
+
 
 @media (min-width: 1679px) and (max-width: 1800px) {
   .div-header {
@@ -612,10 +673,13 @@ body {
   }
 }
 
-@media (max-width: 1570px) {
+@media (max-width: 1620px) {
   .header__phone-me {
     display: none;
   }
+}
+
+@media (max-width: 1570px) {
 
   .lorem-img-wrapper {
     display: none;
