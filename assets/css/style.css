@@ -691,14 +691,14 @@ body {
 
 .time-color {
   color: #4C858B;
-  letter-spacing: -1px;
-  margin-right: 5px;
+  letter-spacing: -1.4px;
+  margin-right: 6px;
 }
 
 .time-color-second {
   margin-right: 1px !important;
-  margin-left: 3px;
-  letter-spacing: 0.9px;
+  margin-left: 8px;
+  letter-spacing: -0.2px;
 }
 
 .adress {
@@ -719,8 +719,7 @@ body {
 
 .placeholder {
   width: 16.2px;
-  /* width: 11.08px;
-  height: 15.94px; */
+  margin-top: -3px;
 }
 
 .time-with-icon, .adress-with-icon {
@@ -728,6 +727,27 @@ body {
   flex-direction: row;
 }
 
+.footer__social-networks-icons {
+  width: 204px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 7px;
+  margin-left: 1px;
+}
+
+
+.footer__social-networks {
+  height: 19px !important;
+}
+
+.footer__social-networks:first-child {
+  height: 14px !important;
+}
+
+.footer__social-networks-img {
+  height: 100%;
+}
 
 @media (min-width: 1679px) and (max-width: 1800px) {
   .div-header {
