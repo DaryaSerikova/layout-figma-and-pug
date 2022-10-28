@@ -1218,8 +1218,9 @@ body {
     margin: 0px 2px 35px -2px !important;
   }
 
+
   .time-class-video {
-    margin-top: 67px;
+    margin-top: 0px;
     margin-bottom: 99px;
     margin-bottom: 33px !important;
   }
@@ -1290,7 +1291,20 @@ body {
   }
 
   .footer {
-    height: 90px;
+    height: 70px;
+  }
+
+  .photos {
+    margin-bottom: 30px;
+  }
+
+  .wrapper-footer {
+    margin: 0 auto 0 !important;
+  }
+
+  .footer__social-networks-icons {
+    margin-top: 12px;
+    margin-left: -1px;
   }
 }
 
